@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -290,13 +290,13 @@
       </div>
       <div class="container">
         <div class="row track-list mt-5">
-          <button class="btn col-lg-4 col-md-6 track-item" type="button" data-toggle="modal" data-target="#trackModal"
+          <button class="btn col-lg-4 col-md-6 track-item" type="button" data-toggle="modal" data-target="#trackModal1"
             data-track="ai">
             <img src="img/track-ai.png" alt="AI">
             <div class="title mt-1">Artificial Intelligence</div>
             <div class="subtitle mt-1">Learn More</div>
           </button>
-          <button class="btn col-lg-4 col-md-6 track-item" type="button" data-toggle="modal" data-target="#trackModal"
+          <button class="btn col-lg-4 col-md-6 track-item" type="button" data-toggle="modal" data-target="#trackModal2"
             data-track="blockchain">
             <img src="img/track-blockchain.png" alt="Blockchain">
             <div class="title mt-1">Blockchain</div>
@@ -305,50 +305,100 @@
           <button class="btn col-lg-4 col-md-6 track-item" type="button" data-toggle="modal" data-target="#trackModal"
             data-track="iot">
             <img src="img/track-iot.png" alt="IoT">
-            <div class="title mt-1">Internet of Things</div>
+            <div class="title mt-1">Track3</div>
             <div class="subtitle mt-1">Learn More</div>
           </button>
           <button class="btn col-lg-4 col-md-6 track-item" type="button" data-toggle="modal" data-target="#trackModal"
             data-track="algorithm">
             <img src="img/track-algorithm.png" alt="Algorithm">
-            <div class="title mt-1">Algorithm</div>
+            <div class="title mt-1">Track4</div>
             <div class="subtitle mt-1">Learn More</div>
           </button>
           <button class="btn col-lg-4 col-md-6 track-item" type="button" data-toggle="modal" data-target="#trackModal"
             data-track="fintech">
             <img src="img/track-fintech.png" alt="FinTech">
-            <div class="title mt-1">FinTech</div>
+            <div class="title mt-1">Track5</div>
             <div class="subtitle mt-1">Learn More</div>
           </button>
           <button class="btn col-lg-4 col-md-6 track-item" type="button" data-toggle="modal" data-target="#trackModal"
             data-track="future-mobility">
             <img src="img/track-future-mobility.png" alt="Future Mobility">
-            <div class="title mt-1">Future Mobility</div>
+            <div class="title mt-1">Track6</div>
             <div class="subtitle mt-1">Learn More</div>
           </button>
           <button class="btn col-lg-4 col-md-6 track-item" type="button" data-toggle="modal" data-target="#trackModal"
             data-track="healthtech">
             <img src="img/track-healthtech.png" alt="HealthTech">
-            <div class="title mt-1">HealthTech</div>
+            <div class="title mt-1">Track7</div>
             <div class="subtitle mt-1">Learn More</div>
           </button>
           <button class="btn col-lg-4 col-md-6 track-item" type="button" data-toggle="modal" data-target="#trackModal"
             data-track="ml">
             <img src="img/track-ml.png" alt="ML">
-            <div class="title mt-1">Machine Learning</div>
+            <div class="title mt-1">Track8</div>
             <div class="subtitle mt-1">Learn More</div>
           </button>
           <button class="btn col-lg-4 col-md-6 track-item" type="button" data-toggle="modal" data-target="#trackModal"
             data-track="ar-vr">
             <img src="img/track-ar-vr.png" alt="AR-VR">
-            <div class="title mt-1">AR &sol; VR</div>
+            <div class="title mt-1">Track9</div>
             <div class="subtitle mt-1">Learn More</div>
           </button>
         </div>
       </div>
     </div>
 
-    <!-- Tracks Modal -->
+    <!-- AI Tracks Modal -->
+    <div class="modal fade" id="trackModal1" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="d-flex">
+            <div class="modal-text">
+              <div class="modal-header">
+                <h2 class="modal-title">Artificial Intelligence</h2>
+              </div>
+              <div class="modal-body">
+                From bots, to personal assistants, and shopping automation, what the future holds for artificial intelligence can be described for sure with at least one word; Exciting. Our 		machines and devices are getting faster, more efficient and slowly learning to do things on their own.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn" id="nextTrack">Next track</button>
+              </div>
+            </div>
+            <div class="track-img d-none d-lg-block"></div>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Blockchain Tracks Modal -->
+    <div class="modal fade" id="trackModal2" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="d-flex">
+            <div class="modal-text2" id="track2">
+              <div class="modal-header">
+                <h2 class="modal-title">Blockchain</h2>
+              </div>
+              <div class="modal-body">
+                Today's most exciting use cases for blockchain technology extend far beyond payments and digital currency. With the advent of "smart contracts" and turing-complete 				frameworks, blockchain technology has evolved far beyond just bitcoins. It is time to join the Web 3.0 revolution!
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn" id="nextTrack">Next track</button>
+              </div>
+            </div>
+            <div class="track-img d-none d-lg-block"></div>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Other Tracks Modal -->
     <div class="modal fade" id="trackModal" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div class="modal-content">
@@ -389,11 +439,11 @@
         <nav>
           <div class="nav nav-tabs" id="nav-tab" role="tablist">
             <a class="nav-item nav-link active" id="schedule-day-1" data-toggle="tab" href="#day-1" role="tab"
-              aria-controls="day-1" aria-selected="true">12 October</a>
+              aria-controls="day-1" aria-selected="true">1 February</a>
             <a class="nav-item nav-link" id="schedule-day-2" data-toggle="tab" href="#day-2" role="tab" aria-controls="day-2"
-              aria-selected="false">13 October</a>
+              aria-selected="false">2 February</a>
             <a class="nav-item nav-link" id="schedule-day-3" data-toggle="tab" href="#day-3" role="tab" aria-controls="day-3"
-              aria-selected="false">14 October</a>
+              aria-selected="false">3 February</a>
           </div>
         </nav>
         <div class="tab-content" id="scheduleTable">
@@ -509,6 +559,7 @@
           </p>
         </div>
       </div>
+<!--
       <div class="logos">
         <div>
           <a href="https://www.ethereum.org/" target="_blank" rel="noreferrer">
@@ -552,6 +603,7 @@
         </div>
       </div>
     </div>
+-->
   </section>
 
   <!-- FAQs -->
